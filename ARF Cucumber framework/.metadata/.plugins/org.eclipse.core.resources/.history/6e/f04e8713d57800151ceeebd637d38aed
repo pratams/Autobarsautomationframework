@@ -1,0 +1,11 @@
+Feature: Login Action
+
+Scenario- Successful login with valid credentials
+Given User is on autobars BA login page
+When User navigates to login page
+And User enters Username and Password
+Then Message displayed Sucessful Login 
+
+Scenario- Sucessful Logout 
+When user Logout from the autobars application
+Then Message displayed Sucessful Logout

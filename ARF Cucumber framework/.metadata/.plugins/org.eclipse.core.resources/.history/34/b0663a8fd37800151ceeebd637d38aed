@@ -1,0 +1,13 @@
+Feature: Test Login functionality
+
+Scenario - Sucessful login with valid credentials
+Given User is on autobars BA login page
+When User navigates to autobars login page
+And user enters valid Username and Password
+Then Message should be displayed Welcome Ealing Council page 
+
+
+Scenario - Sucessful logout 
+When user Logout from the autobars application
+Then Message displayed Welcome to the Valuation Office Agency
+

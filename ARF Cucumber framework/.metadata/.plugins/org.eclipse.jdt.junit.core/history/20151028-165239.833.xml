@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="ARF Automation Suite" tests="6" started="6" failures="0" errors="2" ignored="5">
+  <testsuite name="CucumberTest.TestRunner" time="5.288">
+    <testsuite name="Feature: Login Action" time="5.288">
+      <testsuite name="Scenario: Sucessful login with valid credentials" time="0.003" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on autobars BA login page" classname="Scenario: Sucessful login with valid credentials" time="0.0" ignored="true"/>
+        <testcase name="When User navigates to login page" classname="Scenario: Sucessful login with valid credentials" time="0.0" ignored="true"/>
+        <testcase name="And User enters Username and Password" classname="Scenario: Sucessful login with valid credentials" time="0.001" ignored="true"/>
+        <testcase name="Then Message displayed Welcome Ealing Council page" classname="Scenario: Sucessful login with valid credentials" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Sucessful logout" time="0.032" incomplete="true">
+        <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Logout"}
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'laptop', ip: '192.168.2.33', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=27.0.1, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 509a7da1-0f59-4db4-949f-abc1f5e58555
+*** Element info: {Using=link text, value=Logout}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)&#13;
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)&#13;
+	at StepDefinition.TestSteps.user_Logout_from_the_autobars_application(TestSteps.java:61)&#13;
+	at ✽.When user Logout from the autobars application(AutobarsLogin.feature:10)&#13;
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Logout"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'laptop', ip: '192.168.2.33', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown&#13;
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)&#13;
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)&#13;
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)&#13;
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)&#13;
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)&#13;
+&#13;
+</error>
+        <testcase name="When user Logout from the autobars application" classname="Scenario: Sucessful logout" time="0.031">
+          <error>org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Logout"}
+Command duration or timeout: 26 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'laptop', ip: '192.168.2.33', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=27.0.1, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 509a7da1-0f59-4db4-949f-abc1f5e58555
+*** Element info: {Using=link text, value=Logout}&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:418)&#13;
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:246)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)&#13;
+	at StepDefinition.TestSteps.user_Logout_from_the_autobars_application(TestSteps.java:61)&#13;
+	at ✽.When user Logout from the autobars application(AutobarsLogin.feature:10)&#13;
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"link text","selector":"Logout"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:55:52'
+System info: host: 'laptop', ip: '192.168.2.33', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_51'
+Driver info: driver.version: unknown&#13;
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10659)&#13;
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10668)&#13;
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)&#13;
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12539)&#13;
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/welcome/AppData/Local/Temp/anonymous1872126707052780252webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12481)&#13;
+&#13;
+</error>
+        </testcase>
+        <testcase name="Then Message displayed Welcome to the Valuation Office Agency" classname="Scenario: Sucessful logout" time="0.009" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

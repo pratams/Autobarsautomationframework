@@ -1,0 +1,46 @@
+package StepDefinition;
+
+import cucumber.api.PendingException;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class TestSteps {
+	@Given("^User is on autobars BA login page$")
+	public void user_is_on_autobars_BA_login_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^User navigates to login page$")
+	public void user_navigates_to_login_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^User enters Username and Password$")
+	public void user_enters_Username_and_Password() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Message displayed Welcome Ealing Council page$")
+	public void message_displayed_Welcome_Ealing_Council_page() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@When("^user Logout from the autobars application$")
+	public void user_Logout_from_the_autobars_application() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+	@Then("^Message displayed Welcome to the Valuation Office Agency$")
+	public void message_displayed_Welcome_to_the_Valuation_Office_Agency() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new PendingException();
+	}
+
+
+}

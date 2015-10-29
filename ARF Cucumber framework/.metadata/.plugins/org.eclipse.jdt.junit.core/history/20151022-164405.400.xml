@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="ARF Automation Suite" tests="6" started="6" failures="0" errors="0" ignored="6">
+  <testsuite name="CucumberTest.TestRunner" time="0.043">
+    <testsuite name="Feature: Login Action" time="0.043">
+      <testsuite name="Scenario: Successful Login with Valid Credentials" time="0.001" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on Home Page" classname="Scenario: Successful Login with Valid Credentials" time="0.0" ignored="true"/>
+        <testcase name="When User Navigate to LogIn Page" classname="Scenario: Successful Login with Valid Credentials" time="0.0" ignored="true"/>
+        <testcase name="And User enters UserName and Password" classname="Scenario: Successful Login with Valid Credentials" time="0.0" ignored="true"/>
+        <testcase name="Then Message displayed Login Successfully" classname="Scenario: Successful Login with Valid Credentials" time="0.001" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Successful LogOut" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="When User LogOut from the Application" classname="Scenario: Successful LogOut" time="0.0" ignored="true"/>
+        <testcase name="Then Message displayed LogOut Successfully" classname="Scenario: Successful LogOut" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,21 @@
+Feature: Login Action
+
+Scenario: Successful Login with Valid Credentials
+	Given User is on autobars Home Page
+	When User Navigate to autobars LogIn Page
+	And User enters UserName and Password
+	Then Message displayed Login Successfully
+	
+Scenario: Successful LogOut
+	When User LogOut from the Application
+	Then Message displayed LogOut Successfully
+	
+	
+Scenario- Sucessful login with valid credentials
+Given User is on autobars BA login page
+When User enters valid username and password
+Then Message should be displayed Welcome Ealing Council page 
+
+Scenario - Sucessful logout 
+When user Logout from the autobars application
+Then Message displayed Welcome to the Valuation Office Agency

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="ARF Automation Suite" tests="6" started="6" failures="0" errors="0" ignored="6">
+  <testsuite name="CucumberTest.TestRunner" time="0.044">
+    <testsuite name="Feature: Login Action" time="0.044">
+      <testsuite name="Scenario: Sucessful login with valid credentials" time="0.002" incomplete="true">
+        <skipped/>
+        <testcase name="Given User is on autobars BA login page" classname="Scenario: Sucessful login with valid credentials" time="0.001" ignored="true"/>
+        <testcase name="When User navigates to login page" classname="Scenario: Sucessful login with valid credentials" time="0.0" ignored="true"/>
+        <testcase name="And User enters Username and Password" classname="Scenario: Sucessful login with valid credentials" time="0.001" ignored="true"/>
+        <testcase name="Then Message displayed Welcome Ealing Council page" classname="Scenario: Sucessful login with valid credentials" time="0.0" ignored="true"/>
+      </testsuite>
+      <testsuite name="Scenario: Sucessful logout" time="0.0" incomplete="true">
+        <skipped/>
+        <testcase name="When user Logout from the autobars application" classname="Scenario: Sucessful logout" time="0.0" ignored="true"/>
+        <testcase name="Then Message displayed Welcome to the Valuation Office Agency" classname="Scenario: Sucessful logout" time="0.0" ignored="true"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testrun>
